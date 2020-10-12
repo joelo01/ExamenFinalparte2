@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMULARIO DE REGISTRO.</title>
+<link rel="stylesheet"
+		  type="text/css"
+		  href="no.css"
+	      />
+	      <link rel="stylesheet"
+		  type="text/css"
+		  href="styles.css"
+	      />
+</head>
+<ul>
+  <li><a href="inicio.html">Inicio</a></li>
+  <li><a href="aboutme.html">Acerca de nosotros</a></li>
+  <li><a href="Productos.html">Productos y servicios</a></li>
+  <li><a href="contact.html">Contáctanos</a></li>
+  <li><a href="registro.html">Registrarse</a></li>
+
+  
+</ul>
+<br>
+
+
+<body>
+	<center>
+<div>
+	<table>
+		<td>
+	<form action="registro.php" method="POST">
+		<hr>
+		<center><h2><em>FORMULARIO DE REGISTRO DE EMPLEADOS</em></h2></center>
+		<br>
+		<hr>
+
+			<label for="nombre">NOMBRE <span><em>(requerido)</em></span></label>
+			<input type="text" name="nombre" class="form-input" required="TRUE">
+			<br>
+			<br>
+			<label for="apellido">APELLIDO <span><em>(requerido)</em></span></label>
+			<input type="text" name="apellido" class="form-input" required="TRUE">
+			<br>
+			<br>
+			<label for="dpi">DPI <span><em>(requerido)</em></span></label>
+			<input type="`text" name="dpi" class="form-input" required="TRUE" size="27">
+			<br>
+			<br>
+			<label for="sueldo">SUELDO <span><em>(requerido)</em></span></label>
+			<input type="text" name="sueldo" class="form-input" required="TRUE" value="Q" size="21">					
+			<br>
+			<br>
+			<label for="Email">EMAIL <span><em>(requerido)</em></span></label>
+			<input type="text" name="Email" class="form-input" required="TRUE" size="24">
+			<br>
+			<br>
+			<center><input class="form-btn" type="submit" name="submit" value="Suscribirse"></center>
+	</form>
+	</td>
+	<td>
+		<img src="logo2.jpg" width="250" height="280">
+	</td>
+	</table>
+</div>
+</center>
+</body>
+</html>
